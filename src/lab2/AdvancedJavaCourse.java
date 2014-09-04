@@ -1,4 +1,9 @@
-
+/**
+ * Describe responsibilities here.
+ *
+ * @author     Justin Potts
+ * @version     1.00
+ */
 package lab2;
 
 public class AdvancedJavaCourse implements Course {
@@ -6,9 +11,12 @@ private String courseName;
 private String courseNumber;
 private double classCredits;
 private String prerequisites;
+
+
 public String getPrerequisites(){
 return prerequisites;
 }
+
 public void setPrerequisites(String prerequisites){
 if(prerequisites == null || prerequisites.length() == 0) {
 System.out.println("Error: Prerequisites cannot be null of empty string");
@@ -70,7 +78,21 @@ public void printClassInfo(){
 generateClassInfo();
 }
 
-    public void displayCourseDetails() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public void CourseDetails() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

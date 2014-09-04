@@ -23,9 +23,9 @@ Course course2 = new AdvancedJavaCourse();
 Course course3 = new IntroToProgrammingCourse();
 
 
-course1.displayCourseDetails();
-course2.displayCourseDetails();
-course3.displayCourseDetails();
+course1.CourseDetails();
+course2.CourseDetails();
+course3.CourseDetails();
 
     }
 }
