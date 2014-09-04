@@ -10,7 +10,7 @@ package lab2;
  *
  * @author justinpotts
  */
-public interface Super {
+public interface Course {
     
     public abstract String courseName();
     
@@ -20,5 +20,14 @@ public interface Super {
 
     public abstract String prerequisites();
 
+    public String getCourseNumber();
+    
+    public double getCredits();
+    
+    public String getCourseName();
+    
+    }
+    
 
-}
+
+

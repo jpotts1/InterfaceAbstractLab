@@ -2,13 +2,7 @@ package lab2;
 
 import javax.swing.JOptionPane;
 
-/**
- * Describe responsibilities here.
- *
- * @author      your name goes here
- * @version     1.00
- */
-public class IntroToProgrammingCourse {
+public class IntroToProgrammingCourse implements Course {
     private String courseName;
     private String courseNumber;
     private double credits;
@@ -16,10 +10,6 @@ public class IntroToProgrammingCourse {
     public IntroToProgrammingCourse(String courseName, String courseNumber) {
         this.setCourseName(courseName);
         this.setCourseNumber(courseNumber);
-    }
-
-    public String getCourseNumber() {
-        return courseNumber;
     }
 
     public final void setCourseNumber(String courseNumber) {
@@ -31,10 +21,6 @@ public class IntroToProgrammingCourse {
         this.courseNumber = courseNumber;
     }
 
-    public double getCredits() {
-        return credits;
-    }
-
     public void setCredits(double credits) {
         if(credits < 0.5 || credits > 4.0) {
             JOptionPane.showMessageDialog(null,
@@ -44,10 +30,6 @@ public class IntroToProgrammingCourse {
         this.credits = credits;
     }
 
-    public String getCourseName() {
-        return courseName;
-    }
-
     public final void setCourseName(String courseName) {
         if(courseName == null || courseName.length() == 0) {
             JOptionPane.showMessageDialog(null,
@@ -55,6 +37,34 @@ public class IntroToProgrammingCourse {
             System.exit(0);
         }
         this.courseName = courseName;
+    }
+
+    public String courseName() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public Double courseNumber() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public Double credits() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public String prerequisites() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public String getCourseNumber() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public double getCredits() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public String getCourseName() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     
