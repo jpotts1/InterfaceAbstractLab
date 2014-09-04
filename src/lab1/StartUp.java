@@ -23,17 +23,14 @@ public class StartUp {
         public static void main(String[] args) {
             
             AdvancedJavaCourse course = new AdvancedJavaCourse("Advanced Java", "Intro To Java", 1.0, "Intro To Programming" );
-            course.getCourseName();
             System.out.println(course.getCourseName());
         
             
             IntroToProgrammingCourse = new IntroToProgrammingCourse("courseName", "courseNumber");
-            course.getCredits();
             System.out.println(course.getCredits());
             
             
             IntroJavaCourse = new IntroJavaCourse("courseName", "courseNumber");
-            course.getPrerequisites();
             System.out.println(course.getPrerequisites);
             
         }
