@@ -9,7 +9,7 @@
 package lab1;
 
 /**
- * This abstract class that defines course
+ * This is the abstract class that defines course
  * @author justinpotts
  */
 

@@ -3,18 +3,16 @@ package lab2;
 /**
 *
 * @author Justin
+* This is the interface that defines course
+* 
+* 
 */
 public interface Course {
-    
+public abstract void displayCourseDetails();
 public abstract String getCourseName();
-public abstract void setCourseName(String CourseName);
 public abstract String getCourseNumber();
-public abstract void setCourseNumber(String CourseNumber);
-public abstract double getClassCredits();
-public abstract void setClassCredits(double ClassCredits);
-public abstract void generateClassInfo();
-public abstract void printClassInfo();
-public abstract void printClassName();
-public abstract void printClassNumber();
-public abstract void printClassCredits();
+public abstract double getCredits();
+public abstract void setCourseName(String courseName);
+public abstract void setCourseNumber(String courseNumber);
+public abstract void setCredits(double credits);
 }
